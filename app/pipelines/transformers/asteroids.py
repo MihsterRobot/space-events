@@ -2,7 +2,7 @@ from datetime import datetime
 
 
 def transform_asteroid_records(response: dict) -> list[dict]:
-    '''Transform asteroid records to match the Asteroid table fields.
+    '''Extract and reshape raw NeoWs asteroid records into a format suitable for the Asteroid table.
     
     Args:
         response: A dictionary containing asteroid records for a given date range.
